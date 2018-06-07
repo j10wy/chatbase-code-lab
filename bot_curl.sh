@@ -1,0 +1,7 @@
+ # curl -X POST https://chatbase-area120.appspot.com/api/message -H 'cache-control: no-cache' -H 'content-type: application/json' -d '{"api_key": "14b20854-6901-40ee-8ccf-110d2e79df56", "type": "user", "platform": "our-curl-test-platform", "message": "Hello, bot!", "intent": "greeting", "version": "1.0", "user_id": "user-00"}'
+
+ # curl -X POST https://chatbase-area120.appspot.com/api/message -H 'cache-control: no-cache' -H 'content-type: application/json' -d '{"api_key": "14b20854-6901-40ee-8ccf-110d2e79df56", "type": "agent", "platform": "our-curl-test-platform", "message": "Hi there, human. What do you want to talk about?", "version": "1.0", "user_id": "user-00"}'
+
+ # curl -X POST https://chatbase-area120.appspot.com/api/message -H 'cache-control: no-cache' -H 'content-type: application/json' -d '{"api_key": "14b20854-6901-40ee-8ccf-110d2e79df56","type": "user","platform": "our-curl-test-platform","message": "I want to chat about the weather.","not_handled": "true","version": "1.0","user_id": "user-00"}'
+
+ #curl -X POST https://chatbase-area120.appspot.com/api/message -H 'cache-control: no-cache' -H 'content-type: application/json' -d '{"api_key": "14b20854-6901-40ee-8ccf-110d2e79df56","type": "agent","platform": "our-curl-test-platform","message": "Sorry, I do not know how to do that. Can we pick another topic?","version": "1.0","user_id": "user-00"}'
